@@ -4,7 +4,6 @@ const keygrip = new Keygrip([keys.cookieKey]);
 const Buffer = require('safe-buffer').Buffer;
 
 module.exports = (user) => {
-    console.error('entered')
     const sessionObj = {
         passport: {
             user: user._id.toString()
